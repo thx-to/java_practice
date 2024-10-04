@@ -100,6 +100,104 @@ public class PRTC_241004 {
         System.out.println("||_/=\\\\__|");
         */
 
+        /*
+        // 구구단출력
+        for (int i = 2; i < 10; i++) {
+            for (int j = 2; j < 10; j++) {
+                System.out.println(i + " X " + j + " = " + i*j);
+            }
+            System.out.println();
+        }
+        */
+
+        /*
+        // Do it 자바프로그래밍입문 p.123
+        // Q2. 구구단을 짝수 단만 출력하도록 프로그램을 만들어 보시오
+        for (int i = 2; i < 10; i++) {
+            if (i % 2 != 0) continue;
+            for (int j = 2; j < 10; j++) {
+                System.out.println(i + " X " + j + " = " + i*j);
+            }
+            System.out.println();
+        }
+        */
+
+        /*
+        // Do it 자바프로그래밍입문 p.123
+        // Q3. 구구단을 단보다 곱하는 수가 작거나 같은 경우까지만 출력하는 프로그램을 만들어 보세요.
+        for (int i = 2; i < 10; i++) {
+            for (int j = 2; j <= i; j++) {
+
+                System.out.println(i + " X " + j + " = " + i*j);
+            }
+            System.out.println();
+        }
+        */
+
+        /*
+        // Do it 자바프로그래밍입문 p.123
+        // Q4. 반복문을 사용하여 다음 모양을 출력하는 프로그램을 만들어 보세요.
+        //    *
+        //   ***
+        //  *****
+        // *******
+
+        int lineCount = 4;
+        int spaceCount = lineCount/2 + 1;
+        int starCount = 1;
+
+        for (int i = 0; i < lineCount; i++) {
+            for (int j = 0; j < spaceCount; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < starCount; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < spaceCount; j++) {
+                System.out.print(" ");
+            }
+            spaceCount -= 1;
+            starCount += 2;
+            System.out.println();
+        }
+        */
+
+        /*
+        // Do it 자바프로그래밍입문 p.123
+        // Q4. 반복문을 사용하여 다음 모양을 출력하는 프로그램을 만들어 보세요.
+        //    *
+        //   ***
+        //  *****
+        // *******
+        //  *****
+        //   ***
+        //    *
+
+        int lineCount  = 7;
+        int spaceCount = lineCount / 2 + 1;
+        int starCount = 1;
+
+        for (int i = 0; i < lineCount; i++) {
+            for (int j = 0; j < spaceCount; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < starCount; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < spaceCount; j++) {
+                System.out.print(" ");
+            }
+
+            if (i < lineCount / 2) {
+                spaceCount -= 1;
+                starCount += 2;
+            } else {
+                spaceCount += 1;
+                starCount -= 2;
+            }
+            System.out.println();
+        }
+        */
 
 
     }
