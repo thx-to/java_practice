@@ -1,4 +1,5 @@
 package JAVA_241010_PRTC_03;
+// Do it! 자바 프로그래밍 입문 교재 pp.213
 
 public class Idol {
 
