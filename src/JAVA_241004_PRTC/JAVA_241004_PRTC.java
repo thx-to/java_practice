@@ -1,4 +1,4 @@
-package PRTC;
+package JAVA_241004_PRTC;
 // 백준 JAVA 입력시 public class 이름은 Main으로 바꿔서 제출, 범위는 Public class 전체
 // 백준 입출력과 사칙연산
 
